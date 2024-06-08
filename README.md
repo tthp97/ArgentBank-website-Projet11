@@ -4,6 +4,9 @@ This codebase contains the code needed to run the backend for Argent Bank.
 
 ## Getting Started
 
+Pour lancer le projet, utiliser le terminal et lancer les commandes : - cd assets puis npm start en se situant à la racine du projet.
+Et ne pas oublier d'intialiser la base de données tel qu'expliquer ci-dessous.
+
 ### Prerequisites
 
 Argent Bank uses the following tech stack:

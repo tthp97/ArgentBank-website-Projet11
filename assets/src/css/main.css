@@ -69,9 +69,17 @@ body {
   max-width: 100%;
   width: 200px;
 }
-
+.main-nav-user-content {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.main-nav-user {
+  width: 50px;
+  height: 50px;
+}
 .hero {
-  background-image: url('../img/bank-tree.jpeg');
+  background-image: url("../img/bank-tree.webp");
   background-position: 0 -50px;
   background-size: cover;
   background-repeat: no-repeat;
