@@ -14,6 +14,7 @@ export default function Header() {
   const switchLogout = (event) => {
     event.preventDefault();
     dispatch(logout());
+    localStorage.clear();
     navigate("/");
   };
   return (
@@ -30,8 +31,10 @@ export default function Header() {
         <div>
           {token ? (
             <div className="main-nav-user-content">
-              <div className="main-nav-user">{user.name}</div>
-
+              <Link className="main-nav-item" to="/User">
+                <User_circle />
+                {user.userName}
+              </Link>
               <Link className="main-nav-item" to="/" onClick={switchLogout}>
                 <Quit />
                 Sign Out
